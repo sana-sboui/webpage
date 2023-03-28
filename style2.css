@@ -1,0 +1,85 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+	background: url('./lg_bg_img.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: sans-serif;
+} 
+
+.menu-bar {
+	background: rgb(254, 232, 201);
+	text-align: center;
+}
+
+.menu-bar ul {
+	display: inline-flex;
+	list-style: none;
+	color: rgb(68, 68, 68);
+}
+
+.menu-bar ul li {
+	width: 120px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.menu-bar ul li a {
+	text-decoration: none;
+	color: rgb(68, 68, 68);
+}
+
+.active, .menu-bar ul li:hover {
+	background: rgb(252, 209, 122);
+	border-radius: 3px;
+}
+
+.sub-menu-1 {
+	display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+	display: block;
+	position: absolute;
+	background: rgb(254, 232, 201);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+	display: block;
+	margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted rgb(68, 68, 68);
+	border-radius: 0;
+	text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+	border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+	color: rgb(254, 232, 201);
+}
+
+.sub-menu-2 {
+	display: none;
+}
+
+.hover-me:hover .sub-menu-2 {
+	position: absolute;
+	display: block;
+	margin-top: -39px;
+	margin-left: 142px;
+	background: rgb(254, 232, 201);
+}

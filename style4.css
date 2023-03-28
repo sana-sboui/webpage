@@ -1,0 +1,75 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body {
+	background: url('./lg_bg_img.jpg') no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+} 
+
+.part-1 {
+	width: 350px;
+	left: 10%;
+	top: 300px;
+	transform: translate(-70%, -30%);
+	position: absolute;
+	color: #fff;
+}
+
+.part-2 {
+	width: 350px;
+	left: 600px;
+	top: 442px;
+	transform: translate(-30%, -70%);
+	position: absolute;
+	color: #fff;
+}
+
+.cycle-form {
+	width: 350px;
+	top: 100px;
+	left: 50%;
+	transform: translate(-50%, -30%);
+	position: absolute;
+	color: #fff;
+}
+
+.cycle-form form {
+	display: flex;
+	flex flex-wrap: wrap;
+}
+
+.cycle-form h1 {
+	font-size: 40px;
+	text-align: center;
+	top: 300px;
+	text-transform: uppercase;
+	margin: 40px 0;
+}
+
+.cycle-form p {
+	font-size: 20px;
+	margin: 15px 0;
+}
+
+.cycle-form input {
+	font-size: 14px;
+	width: 100%;
+	padding: 10px 10px;
+	border: 0;
+	outline: none;
+	border-radius: 5px;	
+}
+
+.cycle-form button {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 10px 10px;
+	width: 50%;
+	border-radius: 5px;
+	border: 0;
+}

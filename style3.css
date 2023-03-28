@@ -1,0 +1,27 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.wlc {
+	width: 350px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	color: #fff;
+}
+
+.wlc h1 {
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 40px 0;
+}
+
+.wlc p {
+	width: 600px;
+	font-size: 20px;
+	margin: 15px 0;
+}

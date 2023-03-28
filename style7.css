@@ -1,0 +1,46 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body {
+	background: url('./lg_bg_img.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.cycle-form {
+	width: 350px;
+	position: absolute;
+	color: #fff;
+	left: 50%;
+	transform: translate(-216%, -5%);
+	font-size: 17px;
+}
+
+.cycle-form h1 {
+	font-size: 40px;
+	text-align: center;
+	top: 500px;
+	left: 50%;
+	transform: translate(160%, 20%);
+	text-transform: uppercase;
+	margin: 40px 0;
+}
+
+.cycle-form tr {
+	color: rgb(252, 209, 122);
+}
+
+.cycle-form th {
+	color: rgb(252, 209, 122);
+}
+
+.cycle-form td {
+	color: rgb(252, 209, 122);
+}
+
+.cycle-form a {
+	color: #fff;
+}

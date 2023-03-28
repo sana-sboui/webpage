@@ -1,0 +1,57 @@
+* { 
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body {
+	background: url('./lg_bg_img.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.formateur-form {
+	width: 300px;
+	position: absolute;
+	color: #fff;
+	top: 120px;
+	left: 17%;
+	transform: translate(-85%, -11.5%);
+}
+
+.formateur-form h1 {
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	left: 70%;
+	transform: translate(200%, -15%);
+	margin: 40px 0;
+}
+
+.formateur-form tr {
+	color: rgb(252, 209, 122);
+	padding: 20px 72.5px;
+	margin: 550px;
+	font-size: 20px;
+}
+
+.formateur-form th {
+	color: rgb(252, 209, 122);
+	padding: 20px 72.5px;
+	margin: 550px;
+	font-size: 20px;
+}
+
+.formateur-form td {
+	color: rgb(252, 209, 122);
+	padding: 20px 72.5px;
+	margin: 550px;
+	font-size: 20px;
+}
+
+.formateur-form a {
+	color: #fff;
+	padding: 20px 3px;
+	margin: 0;
+	font-size: 20px;	
+}
